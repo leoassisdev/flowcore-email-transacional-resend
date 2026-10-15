@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-email-transacional-resend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Envia e-mail transacional pela API da Resend com retry em 429/5xx, Idempotency-Key e templates {{variavel}} com escape de HTML. Boas-vindas, senha e nota fiscal chegando uma vez só.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
